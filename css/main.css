@@ -3,6 +3,10 @@ html {
   font-family: 'Merriweather', serif;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -14,12 +18,20 @@ li {
   text-decoration: none;
   list-style-type: none;
   color: #fff;
+  text-align: center;
+  float: left;
+  width: 33.3333%;
 }
 
 ul {
-  float: none;
-  width: 100%;
+  overflow: hidden;
   background-color: #d05c2e;
+  border: 1.5px solid #a63f38;
+}
+
+li:hover {
+  background-color: #a63f38;
+  color: #fff;
 }
 
 header {
@@ -29,11 +41,9 @@ header {
 }
 
 img {
-  width: 10%;
+  width: 8%;
   margin: 1em .5em;
 }
-
-
 
 *, *::before, *::after {
   box-sizing: inherit;
