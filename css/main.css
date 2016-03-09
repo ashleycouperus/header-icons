@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1.125rem;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+ul {
+  float: none;
+  width: 100%;
+  background-color: #d05c2e;
+}
+
+header {
+  float: none;
+  width: 100%;
+  background-color: #d05c2e;
+}
+
+img {
+  width: 10%;
+  margin: 1em .5em;
+}
+
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
